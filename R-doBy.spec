@@ -36,7 +36,9 @@ test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
 rm -f %{buildroot}%{rlibdir}/R.css
 
 %check
-%{_bindir}/R CMD check %{packname}
+if [ x$DISPLAY != x ];	then %{_bindir}/R CMD check %{packname}
+else			true
+fi
 
 %files
 %dir %{rlibdir}/%{packname}
