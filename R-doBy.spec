@@ -9,10 +9,10 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS 
-Requires:         R-Matrix 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
-BuildRequires:    R-Matrix 
+Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
+Requires:         R-Matrix
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
+BuildRequires:    R-R2HTML R-multcomp R-lme4 R-snow R-MASS R-Matrix 
 
 %description
 doBy contains a variety of utilities including: 1) Facilities for
