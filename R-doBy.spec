@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          4.5.2
 Release:          1
-Summary:          doBy - Groupwise summary statistics, general linear contrasts, population means (least-squares-means), and other utilities
+Summary:          Groupwise summary statistics, general linear contrasts, population means, etc.
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
