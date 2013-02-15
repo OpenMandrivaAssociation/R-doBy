@@ -14,7 +14,7 @@ Source0:          http://cran.r-project.org/src/contrib/doBy_4.5-5.tar.gz
 Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
 Requires:         R-Matrix
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
-BuildRequires:    R-R2HTML R-multcomp R-lme4 R-snow R-MASS R-Matrix.
+BuildRequires:    R-R2HTML R-multcomp R-lme4 R-snow R-MASS R-Matrix
 
 %description
 doBy contains a variety of utilities including: 1) Facilities for
