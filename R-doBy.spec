@@ -1,18 +1,20 @@
 %global packname  doBy
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          4.5.2
+Version:          4.5.5
 Release:          1
-Summary:          Groupwise summary statistics, general linear contrasts, population means, etc.
+Summary:          Groupwise summary statistics, general linear contrasts, population means, etc
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/doBy_4.5-5.tar.gz
 Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
 Requires:         R-Matrix
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
-BuildRequires:    R-R2HTML R-multcomp R-lme4 R-snow R-MASS R-Matrix 
+BuildRequires:    R-R2HTML R-multcomp R-lme4 R-snow R-MASS R-Matrix.
 
 %description
 doBy contains a variety of utilities including: 1) Facilities for
@@ -45,7 +47,6 @@ fi
 %doc %{rlibdir}/%{packname}/doc
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/DESCRIPTION
-%{rlibdir}/%{packname}/HTMLreport
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
