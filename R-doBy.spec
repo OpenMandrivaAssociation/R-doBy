@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          4.5.5
+Version:          4.5.6
 Release:          1
 Summary:          Groupwise summary statistics, general linear contrasts, population means, etc
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/doBy_4.5-5.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/doBy_4.5-6.tar.gz
 Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
 Requires:         R-Matrix
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-survival
@@ -53,3 +53,4 @@ fi
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
