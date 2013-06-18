@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          4.5.6
-Release:          1
+Release:          2
 Summary:          Groupwise summary statistics, general linear contrasts, population means, etc
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
