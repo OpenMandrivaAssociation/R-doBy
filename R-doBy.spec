@@ -9,7 +9,7 @@ Release:          2
 Summary:          Groupwise summary statistics, general linear contrasts, population means, etc
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/doBy_4.5-6.tar.gz
 Requires:         R-survival R-R2HTML R-multcomp R-lme4 R-snow R-MASS
 Requires:         R-Matrix
